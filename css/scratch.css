@@ -1,0 +1,94 @@
+/* Import a fun clean font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+/* General body styling */
+body {
+    background-color: #d6f5d6; /* light soft green */
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header section */
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #b2dfdb; /* teal-ish background */
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header h1 {
+    font-size: 3em;
+    color: #2e7d32;
+}
+
+.header h2 {
+    color: #004d40;
+}
+
+/* Travel list */
+.travel-list {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.travel-list ol li {
+    margin-bottom: 20px;
+}
+
+.travel-list ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+/* Video section */
+.video-section {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.video-section h2 {
+    color: #e65100;
+}
+
+/* Tableau section */
+.tableau-section {
+    background-color: #f3e5f5;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.tableau-section h2 {
+    color: #6a1b9a;
+}
+
+/* Nav links */
+.nav-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #00796b;
+    font-weight: bold;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #004d40;
+    text-decoration: underline;
+}
